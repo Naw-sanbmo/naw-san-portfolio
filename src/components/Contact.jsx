@@ -1,7 +1,4 @@
-import {
-  Github,
-  Linkedin,
-} from "lucide-react";
+import { Github, Linkedin } from "lucide-react";
 
 export const Contact = () => {
   return (
@@ -41,10 +38,18 @@ export const Contact = () => {
             <span className="text-primary">Connect</span> With Me
           </h4>
           <div className="flex space-x-10 justify-center">
-            <a href="https://www.linkedin.com/in/naw-san" target="_blank">
+            <a
+              className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+              href="https://www.linkedin.com/in/naw-san"
+              target="_blank"
+            >
               <Linkedin />
             </a>
-            <a href="https://github.com/Naw-sanbmo" target="_blank">
+            <a
+              className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+              href="https://github.com/Naw-sanbmo"
+              target="_blank"
+            >
               <Github />
             </a>
           </div>

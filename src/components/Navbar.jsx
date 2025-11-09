@@ -35,7 +35,8 @@ export const Navbar = () => {
           href="#hero"
         >
           <span className="relative z-10">
-            <span className="text-glow text-foreground">My</span>portfolio
+            <span className="text-glow text-foreground text-lg">NawSan</span>
+            portfolio
           </span>
         </a>
 
@@ -45,7 +46,7 @@ export const Navbar = () => {
             <a
               key={key}
               href={item.href}
-              className="text-foreground/80 hover:text-primary transition-colors duration-300"
+              className="text-foreground/80 text-lg hover:text-primary transition-colors duration-300"
             >
               {item.name}
             </a>
