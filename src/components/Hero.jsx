@@ -18,10 +18,15 @@ export const Hero = () => {
                 San
               </span>
             </h1>
+            <p className="text-2xl md:text-2xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
+              私はウェブ開発者として、新しい技術を学び続けること、そしてコードを通じて現実世界の技術的課題を解決することに情熱を注いでいます。
+            </p>
 
             <p className="text-2xl md:text-2xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-              I'm a web developer with a passion for learning new technologies
-              and solving real-world problems through code.
+              I'm a web developer who loves learning new technologies and
+              tackling real-world challenges through code. I'm especially
+              passionate about exploring cloud computing and software
+              development to build innovative and practical solutions.
             </p>
 
             <div className="pt-4 opacity-0 animate-fade-in-delay-4">
